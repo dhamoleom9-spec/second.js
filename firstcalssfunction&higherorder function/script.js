@@ -8,7 +8,7 @@ val()
 console.log(val)
 
 function hay(val){
-    val();                    // high order function
+    console.log(`${val}`)                  // high order function
 }
 hay(function(){
     console.log("hay first calss function");
